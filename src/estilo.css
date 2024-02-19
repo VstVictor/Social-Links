@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.retangulo {
+    background-color: hsl(0, 0%, 12%);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    height: 520px;
+    padding: 30px 15px;
+    margin-top: 45px;
+    
+}
+
+.cabeca {
+    border-radius: 90px;
+    width: 80px;
+}
+
+.fonte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    padding-top: 10px;
+}
+
+.nome{
+    font-size: 20px;
+    font-weight: 550;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.localizacao{
+    font-size: 15px;
+    font-weight: 550;
+    color: hsl(75, 94%, 57%);
+    margin-top: 1px;
+}
+
+.descricao{
+    font-size: 12px;
+    font-weight: 450;
+    color: lightgrey;
+    margin-top: 7px;
+    height: 20px;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	opacity: 100;  
+}
+
+.botoes button {
+    width: 300px ;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0px solid;
+    color: white;
+    font-weight: 750;
+}
+
+.botoes :hover{
+    transition: all 0.3s ease-in;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+   
+}
