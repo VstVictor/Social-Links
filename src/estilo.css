@@ -66,6 +66,7 @@ body {
     border: 0px solid;
     color: white;
     font-weight: 750;
+    border-radius: 10px;	
 }
 
 .botoes :hover{
